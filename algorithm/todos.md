@@ -30,3 +30,31 @@ A里面的字符是否都在B里面？
 N个孩子的年龄各不相同，排列成一排;年龄大的孩子比邻居分配的糖果多;至少需要多少个糖果
 
 排序只含1、2、3的数组，不能统计个数
+
+排序:
+BubbleSort √
+
+```JavaScript
+function bubbleSort(arr) {
+    var i = arr.length, j;
+    var tempExchangVal;
+    while (i > 0) {
+        for (j = 0; j < i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                tempExchangVal = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = tempExchangVal;
+            }
+        }
+        i--;
+    }
+    return arr;
+}
+```
+
+SelectSort √
+InsertSort √
+QuickSort √
+ShellSort X
+HeapSort X
+MergeSort X
