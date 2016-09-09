@@ -25,3 +25,14 @@ canvas
 Web Worker:
 Worker 里面 quicksort然后post msg 到 master 上显示出来
 master 上显示loading直到收到msg
+
+
+完成fex github 上面试时需要准备的的两个笔试题
+
+
+highcharts/highcharts-ng
+以及百度前端的echart
+
+
+gifs api
+streamable api

@@ -15,3 +15,8 @@ nodejs+reddis
 jsp+ajax+cookies:单点登录/注销，多域名共用
 nodejs+cookies：SPA+会话保存登录状态+cookies3分钟记录登录状态；
 nodejs+h5(websocket):即时通行应用+消息推送+网络五子棋（围棋）；
+
+
+使用递归:└,│,├,─,┬,使用这些符号模拟npm list画出某个文件夹的树形结构;
+
+![npm list](./list.png)
