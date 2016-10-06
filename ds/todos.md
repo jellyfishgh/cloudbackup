@@ -15,10 +15,6 @@ PriorityQueue
 布隆过滤器
 
 Stack
-1.解析算式:
-5+3*2-(2+3*8)*10/2
-2.校验对称性是否完整:
-{[()]}
 3.实现递归<http://www.unf.edu/~broggio/cop3540/chap6/StackTriangleApp.java>
 
 Heap

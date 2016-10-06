@@ -24,7 +24,11 @@ Stack.prototype = {
         }
     },
     peek: function() {
-        return this.tail.getValue();
+        if(this.size() < 1) {
+            return null;
+        } else {
+            return this.tail.getValue();
+        }
     }
 };
 

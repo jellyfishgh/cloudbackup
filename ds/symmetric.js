@@ -1,3 +1,6 @@
+
+/**校验对称性是否完整:{[()]}*/
+
 const Stack = require('./Stack.js');
 
 const arg = process.argv.slice(2)[0];
@@ -19,7 +22,7 @@ function isPair(left, right) {
 var stack = new Stack();
 
 for(var i = 0; i < arg.length; i++) {
-    if(brackets.indexOf(arg[i])) {
+    if(brackets.indexOf(arg[i]) > -1) {
         if(isPair(stack.peek(), arg[i])){
             stack.pop();
         }else {
